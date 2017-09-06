@@ -123,7 +123,7 @@ box-shadow: 7px 7px 15px 2px rgba(197, 187, 255, 0.65);
 .registr{
     padding-top: 50px;
 }
-.registr input[type="fname"]{
+.registr input[type="text"]{
     border-radius: 6px 0 0 6px;
     border-right: 2px solid  #adadad;
 }
