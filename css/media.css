@@ -1,0 +1,105 @@
+@media screen and (max-width: 1199px){
+    .nav>li>a{
+        padding: 15px 7px;
+    }
+} 
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .navbar-nav>li{
+        float: none;
+        text-align: center;
+        display: inline-block;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .log{
+        margin-top: 35px;
+    }
+    li.video_box:nth-child(2){
+        order: -1;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav_menu{
+        margin: 15px 0;
+    }
+    .nav_logo{
+        width: 100%;
+        text-align: center;
+        margin: 15px;
+    }
+    .button{
+        border-radius: 6px;
+        margin-top: 5px
+    }
+    .registr input[type="name"], .registr input{
+        border-radius: 6px;
+        border-right: none;
+        margin: 5px;
+    }
+    .form_feedback input{
+        font-size: 16px;
+    }
+   .feedback, .services, .news, .save_time, .ut_video, .f_menu, .flex_box{
+        padding-top: 30px;
+    }
+  .services, .save_time, .f_menu{
+        padding-bottom: 30px;
+    }
+    .feedback{
+        padding-bottom: 50px;
+    }
+    h1{
+        font-size: 46px;
+    }
+    h2, h4{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p, .sub{
+        font-size: 14px;
+    }
+    .bg_main{
+        padding: 30px 0 50px;
+    }
+    .place_info{
+        margin-top: 30px;
+    }
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+    .nav.log li{
+        display: inline-block;
+    }
+    .pull-right{
+        float: none !important;
+        text-align: center;
+    }
+    .nav.menu li:after{
+        display: none;
+    }
+    .navbar-nav{
+        margin: 0;
+    }
+    .navbar-collapse{
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        opacity: 0.94;
+        z-index: 1;
+    }
+    .nav>li>a{
+        padding: 10px 7px;
+    }
+    .nav.log li:nth-child(2)::after{
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h4, h2{
+        font-size: 30px;
+    }
+}
