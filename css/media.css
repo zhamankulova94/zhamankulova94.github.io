@@ -32,7 +32,7 @@
         border-radius: 6px;
         margin-top: 5px
     }
-    .registr input[type="name"], .registr input{
+    .registr input[type="fname"], .registr input{
         border-radius: 6px;
         border-right: none;
         margin: 5px;
