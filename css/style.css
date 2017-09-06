@@ -466,7 +466,11 @@ color: #0086f6;
    margin: 0 15px 20px; 
     width: 200px;
 }
-.form_feedback input::placeholder{color: #fff;} .form_feedback input::-webkit-input-placeholder{color: #fff;} .form_feedback input::-moz-placeholder{color: #fff;} .form_feedback input:-moz-placeholder{color: #fff;} .form_feedback input:-ms-input-placeholder {color:#fff;}
+.form_feedback input{color: #fff;} 
+.form_feedback input::-webkit-input-placeholder{color: #fff;} 
+.form_feedback input::-moz-placeholder{color: #fff;} 
+.form_feedback input:-moz-placeholder{color: #fff;} 
+.form_feedback input:-ms-input-placeholder {color:#fff;}
 
 .partners{
     background-color: #f5f8fa;
