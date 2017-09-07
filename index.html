@@ -22,44 +22,46 @@
 </head>
 
 <body>
-        <!--[if lt IE 8]>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://www.microsoft.com/ru-ru/download/internet-explorer.aspx">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+    
     <!--HEADER-->
+    <span itemscope itemtype="http://schema.org/organization">
+     <meta itemprop="name" content="indigo24">
     <header>
 
         <div class="navbar-wrapper">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-<ul class="nav navbar-nav pull-right log">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img itemprop="logo" src="img/logo.png" alt="логотип"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav pull-right log">
                             <li><span class="glyphicon glyphicon-user"></span></li>
                             <li><a href="">Войти</a></li>
                             <li><a href="#">Регистрация</a></li>
                         </ul>
-                            <ul class="nav navbar-nav pull-right menu">
-                                <li><a href="">Руководство</a></li>
-                                <li><a href="#">Пресс-служба</a></li>
-                                <li><a href="#">Вакансии</a></li>
-                                <li><a href="#">Безопасность </a></li>
-                                <li><a href="#">Депозиты Для Физ. / Юр. Лиц</a></li>
-                                <li><a href="#">Тарифы</a></li>
-                                <li><a href="#">Отзывы</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </div>
+                        <ul class="nav navbar-nav pull-right menu">
+                            <li><a href="">Руководство</a></li>
+                            <li><a href="#">Пресс-служба</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Безопасность </a></li>
+                            <li><a href="#">Депозиты Для Физ. / Юр. Лиц</a></li>
+                            <li><a href="#">Тарифы</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
                     </div>
-        </nav>
+                </div>
+            </nav>
         </div>
     </header>
     <!--HEADER END-->
@@ -67,9 +69,9 @@
 
     <!--MAIN-->
     <main>
-        <section class=" container-fluid bg_main clearfix">
+        <section class="container-fluid bg_main clearfix">
             <div class="container">
-                <div class="text box4">
+                <div itemprop="description" class="text box4">
                     <h1>Платёжная платформа</h1>
                     <p>Запуск системы электронных закупок для бизнеса Rialto,
                         <br>в первую очередь, позволит как участникам закупок, так и компаниям-организаторам расширить свои рынки.</p>
@@ -95,21 +97,21 @@
                 </div>
                 <ul class="flex_box">
                     <li class="box box3">
-                        <div class="box_img"> <img src="img/box1.png" alt="интерфейс"></div>
+                        <div class="box_img"> <img itemprop="image" src="img/box1.png" alt="интерфейс"></div>
                         <div class="text">
                             <h3>Удобный веб интерфейс</h3>
                             <p>Запуск системы электронных закупок для бизнеса Rialto</p>
                         </div>
                     </li>
                     <li class="box box33">
-                        <div class="box_img"><img src="img/box2.png" alt="интерфейс"></div>
+                        <div class="box_img"><img itemprop="image" src="img/box2.png" alt="интерфейс"></div>
                         <div class="text">
                             <h3>Удобный веб интерфейс</h3>
                             <p>Запуск системы электронных закупок для бизнеса Rialto</p>
                         </div>
                     </li>
                     <li class="box box333">
-                        <div class="box_img"><img src="img/box3.png" alt="интерфейс"></div>
+                        <div class="box_img"><img itemprop="image" src="img/box3.png" alt="интерфейс"></div>
                         <div class="text">
                             <h3>Удобный веб интерфейс</h3>
                             <p>Запуск системы электронных закупок для бизнеса Rialto</p>
@@ -138,12 +140,12 @@
                 </div>
                 <div class="flex_box2">
                     <div class="news_box box1">
-                        <img src="img/news1.png" alt="новости">
+                        <img itemprop="image" src="img/news1.png" alt="новости">
                         <h3>Удобный веб интерфейс</h3>
                         <p>Запуск системы электронных закупок для бизнеса Rialto, в первую очередь, позволит как участникам закупок, так и компаниям-организаторам расширить свои рынки. Только в первом случае — это рынок сбыта, а во втором — предложения поставщиков.</p>
                     </div>
                     <div class="news_box box2">
-                        <img src="img/news2.png" alt="новости">
+                        <img itemprop="image" src="img/news2.png" alt="новости">
                         <h3>Удобный веб интерфейс</h3>
                         <p>Запуск системы электронных закупок для бизнеса Rialto, в первую очередь, позволит как участникам закупок, так и компаниям-организаторам расширить свои рынки. Только в первом случае — это рынок сбыта, а во втором — предложения поставщиков.</p>
                     </div>
@@ -168,7 +170,7 @@
                         <div class="place_info" id="tabs1">
                             <div class="place_address">
                                 <div class="place_logo">
-                                    <a href="#"><img src="img/restaurant3.png" alt=""></a>
+                                    <a itemprop="url" href="#"><img itemprop="image" src="img/restaurant3.png" alt="рестораны"></a>
                                 </div>
                                 <div class="slider_text">
                                     <div class="slider_title">
@@ -194,7 +196,7 @@
                             </div>
                             <div class="place_address">
                                 <div class="place_logo">
-                                    <a href="#"><img src="img/restaurant1.png" alt=""></a>
+                                    <a href="#"><img itemprop="image" src="img/restaurant1.png" alt="рестораны"></a>
                                 </div>
                                 <div class="slider_text">
                                     <div class="slider_title">
@@ -220,7 +222,7 @@
                             </div>
                             <div class="place_address">
                                 <div class="place_logo">
-                                    <a href="#"><img src="img/kfs.png" alt=""></a>
+                                    <a href="#"><img itemprop="image" src="img/kfs.png" alt="рестораны"></a>
                                 </div>
                                 <div class="slider_text">
                                     <div class="slider_title">
@@ -246,7 +248,7 @@
                             </div>
                             <div class="place_address">
                                 <div class="place_logo">
-                                    <a href="#"><img src="img/restaurant2.png" alt=""></a>
+                                    <a href="#"><img itemprop="image" src="img/restaurant2.png" alt="рестораны"></a>
                                 </div>
                                 <div class="slider_text">
                                     <div class="slider_title">
@@ -272,7 +274,7 @@
                             </div>
                             <div class="place_address">
                                 <div class="place_logo">
-                                    <a href="#"><img src="img/kfs.png" alt=""></a>
+                                    <a href="#"><img itemprop="image" src="img/kfs.png" alt="рестораны"></a>
                                 </div>
                                 <div class="slider_text">
                                     <div class="slider_title">
@@ -323,16 +325,16 @@
                 <div class="slider2">
                     <div class="partners_list">
                         <div>
-                            <a href=""><img src="img/partners1.png" alt=""></a>
+                            <a href=""><img itemprop="image" src="img/partners1.png" alt="партнеры"></a>
                         </div>
                         <div>
-                            <a href=""><img src="img/parners2.png" alt=""></a>
+                            <a href=""><img itemprop="image" src="img/parners2.png" alt="партнеры"></a>
                         </div>
                         <div>
-                            <a href=""><img src="img/partners3.png" alt=""></a>
+                            <a href=""><img itemprop="image" src="img/partners3.png" alt="партнеры"></a>
                         </div>
                         <div>
-                            <a href=""><img src="img/partners4.png" alt=""></a>
+                            <a href=""><img itemprop="image" src="img/partners4.png" alt="партнеры"></a>
                         </div>
                     </div>
                 </div>
@@ -347,7 +349,7 @@
         <div class="container">
             <nav class="footer_menu f_menu">
                 <div class="nav_logo box5">
-                    <img src="img/logo.png" alt="">
+                    <img itemprop="logo" src="img/logo.png" alt="логотип">
                 </div>
                 <ul class="nav_menu">
                     <li><a href="#">Руководство</a></li>
@@ -368,6 +370,8 @@
         </div>
     </footer>
     <!--FOOTER END-->
+    
+    </span>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
