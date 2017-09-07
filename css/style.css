@@ -115,7 +115,11 @@ body{
     max-width: 560px;
     width: 100%;
 }
+.yt{
+    width: 100%;
+}
 .news_box, .yt{
+    border: none;
     -webkit-box-shadow: 7px 7px 15px 2px rgba(197, 187, 255, 0.65);
 -moz-box-shadow: 7px 7px 15px 2px rgba(197, 187, 255, 0.65);
 box-shadow: 7px 7px 15px 2px rgba(197, 187, 255, 0.65);
@@ -466,7 +470,7 @@ color: #0086f6;
    margin: 0 15px 20px; 
     width: 200px;
 }
-.form_feedback input{color: #fff;} 
+.form_feedback input::placeholder{color: #fff;} 
 .form_feedback input::-webkit-input-placeholder{color: #fff;} 
 .form_feedback input::-moz-placeholder{color: #fff;} 
 .form_feedback input:-moz-placeholder{color: #fff;} 
@@ -550,4 +554,5 @@ color: #0086f6;
     position: absolute;
     font-size: 30px;
     color: #0086f5;
+    left: 0;
 }
