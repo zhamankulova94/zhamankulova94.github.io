@@ -21,6 +21,7 @@
 }
 @media screen and (max-width: 768px){
     .nav_menu{
+        text-align: center;
         margin: 15px 0;
     }
     .nav_logo{
