@@ -276,6 +276,7 @@ color: #0086f6;
 }
 /*services*/
 .places{
+    z-index: 100;
     position: relative;
 }
 .places:after{
@@ -458,6 +459,7 @@ color: #0086f6;
     padding-top: 50px;
 }
 .form_feedback input{
+    border-radius: 0;
     font-size: 18px;
     font-weight: 300;
     outline: none;
